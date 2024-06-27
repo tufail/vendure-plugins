@@ -1,19 +1,9 @@
 {
+  "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "lib": ["es2022"],
-    "module": "commonjs",
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "target": "es2022",
-    "strict": true,
-    "sourceMap": false,
-    "skipLibCheck": true,
-    "types": ["jest", "node"],
-    "declaration": true,
-    "strictPropertyInitialization": false,
     "outDir": "dist",
+    "types": ["node"]
   },
   "include": ["src/"],
+  "exclude": ["src/ui"]
 }
