@@ -1,0 +1,13 @@
+*.launch
+*.log
+*.sqlite
+.cache
+.env
+.env.*
+.history
+.sass-cache
+.temp
+.vscode
+Thumbs.db
+dist
+node_modules
